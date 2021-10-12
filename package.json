@@ -1,10 +1,14 @@
 {
   "name": "plantilla-lib-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Librería React de componentes en Typescript",
   "author": "Daniel Elías",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chander131/plantilla-lib-component"
+  },
   "scripts": {
     "build": "npx tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1",

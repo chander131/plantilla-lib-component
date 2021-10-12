@@ -11,7 +11,10 @@
 # production
 /.storybook
 /src
-/.stories
+/stories
+notes.txt
+package.json
+tsconfig.json
 
 # misc
 .DS_Store
