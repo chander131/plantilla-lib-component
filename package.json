@@ -1,0 +1,38 @@
+{
+  "name": "plantilla-lib-component",
+  "version": "1.0.2",
+  "description": "Librería React de componentes en Typescript",
+  "author": "Daniel Elías",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "npx tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006 -c .storybook watch-css -s ./src",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "components",
+    "npm"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^17.0.27",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@storybook/addon-actions": "^6.3.10",
+    "@storybook/addon-essentials": "^6.3.10",
+    "@storybook/addon-links": "^6.3.10",
+    "@storybook/react": "^6.3.10",
+    "@types/styled-components": "^5.1.15",
+    "babel-loader": "^8.2.2"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.2"
+  }
+}

@@ -1,0 +1,8 @@
+Publicacion en NPM
+
+-Con la terminal accedemos hasta la ruta del proyecto
+-Nos logueamos en NPM: npm login
+-Publicamos nuestra libreria: npm publish
+-Para usar nuestra libreria: npm i <nombre_libreria>
+
+
