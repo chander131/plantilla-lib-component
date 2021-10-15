@@ -10,11 +10,18 @@
 
 # production
 /.storybook
+/coverage
+/docs
 /src
 /stories
+/storybook-static
+/test
+.travis.yml
 notes.txt
+package-lock.json
 package.json
 tsconfig.json
+tslint.json
 
 # misc
 .DS_Store

@@ -28,5 +28,5 @@
 		"skipLibCheck": true
 	},
 	"include": ["src/**/*"],
-	"exclude": ["node_modules", "build", "scripts", "src/**/*.test.*", "src/**/*.test-visual.*"]
+	"exclude": ["node_modules", "build", "stories", "test/", "scripts", "src/**/*.test.*", "src/**/*.test-visual.*"]
 }
