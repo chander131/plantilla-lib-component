@@ -28,7 +28,6 @@ export interface ButtonProps {
  * Primary UI component for user interaction
  */
 const Button = ({ primary = false, size = 'medium', backgroundColor = '', label, ...props }: ButtonProps) => {
-	const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
 	return (
 		<ContenedorBoton size={size} backgroundColor={backgroundColor} primary={primary} {...props}>
 			{label}
@@ -53,8 +52,8 @@ const ContenedorBoton = styled.button<PropsContenedorBoton>`
 
 	color: ${({ primary }) => (primary ? 'white' : '#333')};
 	background-color: ${({ primary }) => (primary ? '#1ea7fd' : 'transparent')};
-	font-size: ${({ size }) => (size == 'small' ? '12' : size == 'medium' ? '14' : '16')}px;
-	padding: ${({ size }) => (size == 'small' ? '10px 16px' : size == 'medium' ? '11px 20px' : '12px 24px')};
+	font-size: ${({ size }) => (size === 'small' ? '12' : size === 'medium' ? '14' : '16')}px;
+	padding: ${({ size }) => (size === 'small' ? '10px 16px' : size === 'medium' ? '11px 20px' : '12px 24px')};
 	${({ primary }) => !primary && 'box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;'}
 	${({ backgroundColor }) => backgroundColor && `background-color: ${backgroundColor};`}
 `;

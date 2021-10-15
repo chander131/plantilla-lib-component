@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, ReactNode } from 'react';
+import React, { useEffect, useRef, ReactNode } from 'react';
 import styled from 'styled-components';
 
 export interface ModalProps {
@@ -64,11 +64,11 @@ const Modal: React.FC<ModalProps> = ({
 }: ModalProps) => {
 	const refModal = useRef<HTMLDivElement>(null);
 
-	const openOrCloseRef = (isOpen: boolean) => {
+	const openOrCloseRef = (_isOpen: boolean) => {
 		if (refModal && refModal.current) {
-			refModal.current.style.display = isOpen ? 'block' : 'none';
+			refModal.current.style.display = _isOpen ? 'block' : 'none';
 
-			if (openOrCloseModal) openOrCloseModal(isOpen);
+			if (openOrCloseModal) openOrCloseModal(_isOpen);
 		}
 	};
 
