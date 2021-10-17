@@ -1,7 +1,7 @@
 {
   "name": "plantilla-lib-component",
   "version": "1.0.6",
-  "description": "Librería React de componentes en Typescript",
+  "description": "Librería de componentes para React creados con Typescript",
   "author": "Daniel Elías",
   "main": "build/index.js",
   "types": "build/index.d.ts",

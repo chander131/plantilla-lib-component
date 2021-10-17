@@ -1,10 +1,10 @@
-![Logo-Chander131](</assets/img/logo-chander131(Facebookperfil).png>)
+![Logo-Chander131](/assets/img/logo-chander131.png)
 
 [![Build Status](https://app.travis-ci.com/chander131/plantilla-lib-component.svg?branch=main)](https://app.travis-ci.com/chander131/plantilla-lib-component)
 
 [![Coverage Status](https://coveralls.io/repos/github/chander131/plantilla-lib-component/badge.svg?branch=main)](https://coveralls.io/github/chander131/plantilla-lib-component?branch=main)
 
-# Plantilla para creación de Librerias de componentes de React
+# Plantilla para creación de librerias de componentes para React
 
 <p>Proyecto configurado con TypeScript para la creación de librerias de componentes de React, se configuro Storybook para corroborar el funcionamiento de los componentes creados, se integro con Coveralls y Travis para CI, pruebas unitarias con Mocha y Chai<p/>
 
@@ -42,7 +42,6 @@ npm install
 #### Creación de componentes.
 
 Para crear un nuevo componente debes de crear una nueva carpeta en el directorio **src/components** con su respectivo nombre, luego debes de crear su archivo **_.stories.tsx_** correspondiente en la carpeta **stories**.
-<br />
 
 #### Levantar ambiente.
 
@@ -53,15 +52,11 @@ Abrir [http://localhost:6006/](http://localhost:6006/) para ver en el navegador
 yarn storybook o npm run storybook
 ```
 
-<br />
-
 #### Ejecución de pruebas unitarias
 
 ```shell
 yarn test o npm run test
 ```
-
-<br />
 
 #### Para generar paquete de publicacion
 
@@ -69,15 +64,11 @@ yarn test o npm run test
 yarn build o npm run build
 ```
 
-<br />
-
 ### Verifica que el codigo cumpla con las reglas de TSLint configuradas en el proyecto
 
 ```shell
 yarn lint o npm run lint
 ```
-
-<br />
 
 ### Genera el build estatico del proyecto
 
@@ -85,15 +76,11 @@ yarn lint o npm run lint
 yarn build-storybook o npm run build-storybook
 ```
 
-<br />
-
 ### Genera la documentacion del proyecto
 
 ```shell
 yarn build-docs o npm run docs
 ```
-
-<br />
 
 ### Sube la documentacion del proyecto a GitHub
 
@@ -101,7 +88,6 @@ yarn build-docs o npm run docs
 yarn build-gh-pages o npm run gh-pages
 ```
 
-<br />
 <hr />
 
 ## Contributing
